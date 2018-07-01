@@ -1,0 +1,32 @@
+{
+  "name": "@dwdht/core",
+  "version": "0.1.1",
+  "description": "dWeb's DHT Library For Peer Discovery On The Distributed Web.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Bench Computer, Inc. <legal@benchx.io>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "bin": {
+    "ddht": "./bin.js"
+  },
+  "dependencies": {
+    "@dwdht/peers": "dwdht/peers#master",
+    "@dwdht/rpc": "dwdht/rpc#master",
+    "buffer-equals": "^1.0.4",
+    "inherits": "^2.0.3",
+    "minimist": "^1.2.0",
+    "protocol-buffers": "^3.2.1",
+    "unordered-set": "^2.0.0"
+  },
+  "devDependencies": {
+    "standard": "^8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
